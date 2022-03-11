@@ -115,15 +115,6 @@ jobs:
       - replace-api-key
       - run:
           working_directory: revenuecat_examples/purchase_tester/android
-          command: pwd
-      - run:
-          working_directory: revenuecat_examples/purchase_tester/android
-          command: ls
-      - run:
-          working_directory: revenuecat_examples/purchase_tester/android
-          command: gradle getAmazonLibrary
-      - run:
-          working_directory: revenuecat_examples/purchase_tester/android
           command: |
             # flutter build generates files in android/ for building the app
             flutter build apk

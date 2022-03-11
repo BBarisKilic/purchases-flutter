@@ -62,3 +62,5 @@ task getAmazonLibrary {
         }
     }
 }
+
+preBuild.dependsOn getAmazonLibrary
