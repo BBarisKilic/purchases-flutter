@@ -121,7 +121,7 @@ jobs:
           command: ls
       - run:
           working_directory: revenuecat_examples/purchase_tester/android
-          command: ./gradlew getAmazonLibrary
+          command: gradle getAmazonLibrary
       - run:
           working_directory: revenuecat_examples/purchase_tester/android
           command: |
