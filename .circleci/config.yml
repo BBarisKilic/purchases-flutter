@@ -118,6 +118,9 @@ jobs:
           command: pwd
       - run:
           working_directory: revenuecat_examples/purchase_tester/android
+          command: ls
+      - run:
+          working_directory: revenuecat_examples/purchase_tester/android
           command: ./gradlew getAmazonLibrary
       - run:
           working_directory: revenuecat_examples/purchase_tester/android
